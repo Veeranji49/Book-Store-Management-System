@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class MyBookServiceImpl implements MyBookService{
+public class MyBookServiceImpl implements MyBookService {
 
     @Autowired
     private MyBookRepository myBookRepository;
